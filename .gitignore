@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+
+# Build/Intermediate/Derived Data
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# User-specific
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup/Cache
+*.log
+*.tlog
+*.obj
+*.pdb
+*.ipch
