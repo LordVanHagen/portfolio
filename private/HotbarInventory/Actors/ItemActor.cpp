@@ -137,6 +137,7 @@ void AItemActor::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 		{
 			if (const UInventoryComponent* InventoryComponent = Character->GetInventoryComponent())
 			{
+				// TODO: Hardcoded to limit items held to 5, change in the future
 				if (InventoryComponent->GetInventoryList().GetItemsRef().Num() >= 5)
 					return;
 			}
